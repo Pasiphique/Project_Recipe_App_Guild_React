@@ -35,31 +35,31 @@ function RecipeCreate({addToRecipe}) {
             <td>
               <label>
                 Name
-              <input type='text' name="name" value={form.name} onChange={handleInput}/>
+              <input type='text' name="name" value={form.name} onChange={handleInput} placeholder="Name" required/>
               </label>
             </td>
             <td>
               <label>
                 Cuisine
-              <input type='text' name="cuisine" value={form.cuisine} onChange={handleInput}/>
+              <input type='text' name="cuisine" value={form.cuisine} onChange={handleInput} placeholder="Cuisine" required/>
               </label>
             </td>
             <td>
               <label>
               Photo
-              <input type='url' name="photo" value={form.photo} onChange={handleInput}/>
+              <input type='url' name="photo" value={form.photo} onChange={handleInput} placeholder="Photo" required/>
               </label>
             </td>
             <td>
               <label>
                Ingredients
-               <textarea name="ingredients" value={form.ingredients} onChange={handleInput}/>
+               <textarea name="ingredients" value={form.ingredients} onChange={handleInput} placeholder="Ingredients" required/>
               </label>
             </td>
             <td>
               <label>
                Preparation
-               <textarea name="preparation" value={form.preparation} onChange={handleInput}  />
+               <textarea name="preparation" value={form.preparation} onChange={handleInput} placeholder="Preparation" required/>
               </label>
             </td>
             <td>
